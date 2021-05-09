@@ -7,12 +7,11 @@
 На тестирование затрачено: 1h:00m
 
 В результате тестирования выявлены следующие дефекты:
-* Валидация данным приложенем только 16-ти значных карт
+* Номера карт Мир и InterPayment(16 цифр), InterPayment/Maestro/Visa/ChinaUnionPay(18,19 цифр), AmericanExp и UATP(15 цифр), DinersClub(14 цифр)
 
 ## Описание процесса тестирования
 
 В процессе тестирования использовались следующие артефакты:
-* Test case https://docs.google.com/spreadsheets/d/1NK5VIIWW-rsWnrSv1d302nYBnlWc_Vtzk17q96N9q0I/edit?usp=sharing
 * Bug report https://github.com/Alexsandra2203/jdemoHW1/issues/1#issue-881204488
 
 В качестве тестовых данных использовались данные:
